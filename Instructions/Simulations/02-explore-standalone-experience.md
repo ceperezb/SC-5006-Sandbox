@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Explore the first run experience'
-    module: 'Explore the standalone experience'
+simulation:
+    title: 'Explore the standalone experience'
+    module: 'Explore use cases of Microsoft Copilot for Security'
 ---
 
 # Explore the standalone experience
@@ -9,9 +9,9 @@ lab:
 In this exercise, you explore all the key landmarks in the landing page of the standalone experience of Microsoft Copilot for Security.
 
 - You're logged in as the fictitious user, Avery Howard, and have the Copilot owner role.
-- For all the tasks in this exercise, you'll work in the Copilot standalone experience.
+- You'll work in the standalone experience of Microsoft Copilot for Security.
 
-This exercise should take approximately **20** minutes to complete.
+This exercise should take approximately **15** minutes to complete.
 
 > [!NOTE]
 > The environment for this exercise is based on a simulation, generated from pre-determined screen captures of the actual product. As a limited simulation, links on a page may not be enabled and text-based inputs that fall outside of the specified script are not be supported.

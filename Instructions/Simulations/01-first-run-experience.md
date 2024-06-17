@@ -1,5 +1,5 @@
 ---
-lab:
+simulation:
     title: 'Explore the first run experience'
     module: 'Explore use cases of Microsoft Copilot for Security'
 ---
@@ -10,9 +10,9 @@ In this exercise, you go through the first run experience of Microsoft Copilot f
 
 - You're logged in as the fictitious user, Avery Howard, and have a global administrator role in Microsoft Entra.
 - You'll provision Microsoft Copilot for Security with one security compute unit (SCU).
-- You'll work in both the Azure portal and Microsoft Copilot for Security.
+- You'll work in both the Azure portal and the standalone experience of Microsoft Copilot for Security.
 
-This exercise should take approximately **15** minutes to complete.
+This exercise should take approximately **10** minutes to complete.
 
 > [!NOTE]
 > The environment for this exercise is based on a simulation, generated from pre-determined screen captures of the actual product. As a limited simulation, links on a page may not be enabled and text-based inputs that fall outside of the specified script are not be supported.
@@ -31,7 +31,7 @@ In this task, you walk through the process of ensuring you have the appropriate 
 
 Why is this needed? As a Global Administrator in Microsoft Entra ID, you might not have access to all subscriptions and management groups in your directory. Microsoft Entra ID and Azure resources are secured independently from one another. That is, Microsoft Entra role assignments don't grant access to Azure resources, and Azure role assignments don't grant access to Microsoft Entra ID. When you elevate your access, you're assigned the User Access Administrator role in Azure at root scope (/). This allows you to view all resources and assign access in any subscription or management group in the directory. For details, see [Elevate access to manage all Azure subscriptions and management groups.](/azure/role-based-access-control/elevate-access-global-admin).
 
-Once you have user access, you can then assign yourself the necessary access to provision SCUs for Copilot.
+Once you're assigned the User Access Administrator role in Azure, you can assign a user the necessary access to provision SCUs for Copilot.  For the purpose of this exercise only, which is to show you the steps involved,  you will be assigning your the necessary access.  The steps that follow will guide you through the process.
 
 1. Open the simulated environment by selecting this link: **[Azure portal](https://app.highlights.guide/start/6373500f-1f10-4584-a14e-ca0b4aa7399f?link=1&token=40f793d4-2956-40a4-b11a-6b3d4f92557f&azure-portal=true)**.
 
